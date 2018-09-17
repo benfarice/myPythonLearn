@@ -17,5 +17,17 @@ def draw_square():
 	youssef.color("blue")
 	youssef.speed(2)
 	youssef.circle(70)
+
+	benfarice= turtle.Turtle()
+	benfarice.shape("turtle")
+	benfarice.color("green")
+	benfarice.speed(2)
+	benfarice.forward(100)
+
+	i=0
+	while (i<2):
+		benfarice.left(120)
+		benfarice.forward(100)
+		i=i+1
 	window.exitonclick()
 draw_square()
